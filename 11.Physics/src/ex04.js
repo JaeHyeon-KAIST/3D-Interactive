@@ -10,9 +10,9 @@ import { MySphere } from "./MySphere";
 // http://schteppe.github.io/cannon.js/docs/
 // 주의! https 아니고 http
 
-export default function example() {
+export default function example4() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas4");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,

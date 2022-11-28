@@ -4,9 +4,9 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 // ----- 주제: glb 파일 불러오기
 
-export default function example() {
+export default function example2() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas2");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,
@@ -39,7 +39,7 @@ export default function example() {
   const gltfLoader = new GLTFLoader();
   let mixer;
 
-  gltfLoader.load("/npm" + "/models/ilbuni.glb", (gltf) => {
+  gltfLoader.load("./models/ilbuni.glb", (gltf) => {
     // console.log(gltf.scene.children[0]);
     const ilbuniMesh = gltf.scene.children[0];
     scene.add(ilbuniMesh);

@@ -3,9 +3,9 @@ import { DragControls } from "three/examples/jsm/controls/DragControls";
 
 // ----- 주제: DragControls
 
-export default function example() {
+export default function example6() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas6");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,

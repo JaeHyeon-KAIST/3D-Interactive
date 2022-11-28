@@ -20,7 +20,7 @@ export default function example() {
   };
 
   const textureLoader = new THREE.TextureLoader(loadingManager);
-  const gradientTex = textureLoader.load("/npm" + "/textures/gradient.png");
+  const gradientTex = textureLoader.load("./textures/gradient.png");
   gradientTex.magFilter = THREE.NearestFilter;
 
   // Renderer

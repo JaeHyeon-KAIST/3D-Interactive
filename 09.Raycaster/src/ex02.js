@@ -3,9 +3,9 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { PreventDragClick } from "./PreventDragClick";
 // ----- 주제: 클릭한 Mesh 선택하기
 
-export default function example() {
+export default function example2() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas2");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,

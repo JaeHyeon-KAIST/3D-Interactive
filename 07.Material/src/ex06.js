@@ -7,7 +7,7 @@ export default function example() {
   // 텍스쳐 이미지 로드
   const textureLoader = new THREE.TextureLoader();
   const texture = textureLoader.load(
-    "/npm/textures/brick/Brick_Wall_019_basecolor.jpg",
+    "./textures/brick/Brick_Wall_019_basecolor.jpg",
     () => {
       console.log('로드 완료');
     }, 

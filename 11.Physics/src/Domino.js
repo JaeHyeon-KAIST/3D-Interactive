@@ -18,7 +18,7 @@ export class Domino {
     this.rotationY = info.rotationY || 0;
 
     info.gltfLoader.load(
-      '/npm' + '/models/domino.glb',
+      './models/domino.glb',
       glb => {
         this.modelMesh = glb.scene.children[0];
         this.modelMesh.name = `${this.index}번 도미노`;

@@ -3,9 +3,9 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 // ----- 주제: 여러가지 색의 파티클
 
-export default function example() {
+export default function example4() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas4");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,
@@ -54,7 +54,7 @@ export default function example() {
   );
 
   const textureLoader = new THREE.TextureLoader();
-  const particleTexture = textureLoader.load("/npm" + "/images/star.png");
+  const particleTexture = textureLoader.load("./images/star.png");
 
   const material = new THREE.PointsMaterial({
     size: 0.3,

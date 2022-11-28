@@ -3,9 +3,9 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 // ----- 주제: Point 좌표에 Mesh 생성하기
 
-export default function example() {
+export default function example5() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas5");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,

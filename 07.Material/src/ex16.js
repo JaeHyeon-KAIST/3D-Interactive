@@ -6,7 +6,7 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 export default function example() {
   // 텍스쳐 이미지 로드
   const cubeTextureLoader = new THREE.CubeTextureLoader();
-  const cuebTexture = cubeTextureLoader.setPath("/npm" + "/textures/cubemap/").load([
+  const cuebTexture = cubeTextureLoader.setPath("./textures/cubemap/").load([
     // + - 순서
     "px.png",
     "nx.png",

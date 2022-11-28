@@ -5,9 +5,9 @@ import gsap from 'gsap';
 
 // ----- 주제: 형태가 바뀌는 이미지 패널
 
-export default function example() {
+export default function example6() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas6");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,
@@ -58,7 +58,7 @@ export default function example() {
       textureLoader,
       scene,
       geometry: planeGeometry,
-      imageSrc: `/npm/images/0${Math.ceil(Math.random() * 5)}.jpg`,
+      imageSrc: `./images/0${Math.ceil(Math.random() * 5)}.jpg`,
       x: spherePositionArray[i],
       y: spherePositionArray[i+1],
       z: spherePositionArray[i+2]
@@ -137,13 +137,13 @@ export default function example() {
 
   const randomBtn = document.createElement('button');
   randomBtn.dataset.type = 'random';
-  randomBtn.style.cssText = 'position: absolute; left: 20px; top: 20px';
+  randomBtn.style.cssText = 'position: absolute; left: 20px; top: calc(500vh + 30px)';
   randomBtn.innerHTML = 'Random'
   btnWrapper.append(randomBtn);
 
   const sphereBtn = document.createElement('button');
   sphereBtn.dataset.type = "sphere";
-  sphereBtn.style.cssText = "position: absolute; left: 20px; top: 50px";
+  sphereBtn.style.cssText = "position: absolute; left: 20px; top: calc(500vh + 53px)";
   sphereBtn.innerHTML = "Sphere";
   btnWrapper.append(sphereBtn);
 

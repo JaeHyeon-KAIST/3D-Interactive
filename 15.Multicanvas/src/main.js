@@ -77,7 +77,7 @@ scene3.set(() => {
   scene3.controls = new OrbitControls(scene3.camera, scene3.elem);
 
   gltfLoader.load(
-		'/npm' + '/models/ilbuni.glb',
+		'./models/ilbuni.glb',
 		glb => {
 			const mesh = glb.scene.children[0];
 			scene3.meshes.push(mesh);

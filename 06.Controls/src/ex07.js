@@ -4,9 +4,9 @@ import { KeyController } from "./ex07-KeyController";
 
 // ----- 주제: PointerLockControls
 
-export default function example() {
+export default function example7() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas7");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,

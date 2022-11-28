@@ -7,7 +7,7 @@ export default function example() {
   // 텍스쳐 이미지 로드
   const cubeTextureLoader = new THREE.CubeTextureLoader();
   const envTex = cubeTextureLoader
-    .setPath('/npm' + '/textures/cubemap/')
+    .setPath('./textures/cubemap/')
     .load([
       // + - 순서
       'px.png', 'nx.png',

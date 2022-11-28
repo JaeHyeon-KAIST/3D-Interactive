@@ -3,9 +3,9 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
 // ----- 주제: 기본 Geometry 파티클
 
-export default function example() {
+export default function example1() {
 	// Renderer
-	const canvas = document.querySelector('#three-canvas');
+	const canvas = document.querySelector('#three-canvas1');
 	const renderer = new THREE.WebGLRenderer({
 		canvas,
 		antialias: true

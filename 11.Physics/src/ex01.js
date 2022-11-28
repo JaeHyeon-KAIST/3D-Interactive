@@ -8,9 +8,9 @@ import * as CANNON from "cannon-es";
 // http://schteppe.github.io/cannon.js/docs/
 // 주의! https 아니고 http
 
-export default function example() {
+export default function example1() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas1");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,

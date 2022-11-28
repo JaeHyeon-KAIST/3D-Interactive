@@ -10,9 +10,9 @@ import { MySphere } from "./MySphere";
 // http://schteppe.github.io/cannon.js/docs/
 // 주의! https 아니고 http
 
-export default function example() {
+export default function example6() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas6");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,
@@ -116,7 +116,7 @@ export default function example() {
     renderer.render(scene, camera);
   }
 
-  const sound = new Audio("/npm" + "/sounds/boing.mp3");
+  const sound = new Audio("./sounds/boing.mp3");
 
   function collide(e) {
     const velocity = e.contact.getImpactVelocityAlongNormal();

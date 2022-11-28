@@ -2,9 +2,9 @@ import * as THREE from 'three';
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 // ----- 주제: 특정 방향의 광선(Ray)에 맞은 Mesh 판별하기
 
-export default function example() {
+export default function example1() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas1");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,

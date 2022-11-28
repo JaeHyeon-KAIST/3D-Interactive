@@ -6,7 +6,7 @@ import gsap from 'gsap';
 
 // Texture
 const textureLoader = new THREE.TextureLoader();
-const floorTexture = textureLoader.load('/npm' + '/images/grid.png');
+const floorTexture = textureLoader.load('./images/grid.png');
 floorTexture.wrapS = THREE.RepeatWrapping;
 floorTexture.wrapT = THREE.RepeatWrapping;
 floorTexture.repeat.x = 10;
@@ -110,7 +110,7 @@ const gltfLoader = new GLTFLoader();
 const house = new House({
 	gltfLoader,
 	scene,
-	modelSrc: '/npm' + '/models/house.glb',
+	modelSrc: './models/house.glb',
 	x: 5,
 	y: -1.3,
 	z: 2
@@ -120,7 +120,7 @@ const player = new Player({
   scene,
   meshes,
   gltfLoader,
-  modelSrc: "/npm" + "/models/ilbuni.glb",
+  modelSrc: "./models/ilbuni.glb",
 });
 
 const raycaster = new THREE.Raycaster();

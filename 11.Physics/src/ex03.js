@@ -9,9 +9,9 @@ import { PreventDragClick } from './PreventDragClick';
 // http://schteppe.github.io/cannon.js/docs/
 // 주의! https 아니고 http
 
-export default function example() {
+export default function example3() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas3");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,

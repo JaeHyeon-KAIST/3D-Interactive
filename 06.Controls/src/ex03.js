@@ -3,9 +3,9 @@ import { FlyControls } from "three/examples/jsm/controls/FlyControls";
 
 // ----- 주제: FlyControls
 
-export default function example() {
+export default function example3() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas3");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,

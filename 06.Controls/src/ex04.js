@@ -3,9 +3,9 @@ import { FirstPersonControls } from "three/examples/jsm/controls/FirstPersonCont
 
 // ----- 주제: FirstPersonControls
 
-export default function example() {
+export default function example4() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas4");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,

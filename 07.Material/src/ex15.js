@@ -18,7 +18,7 @@ export default function example() {
 
   // Scene
   const scene = new THREE.Scene();
-  scene.background = cubeTextureLoader.setPath("/npm" + "/textures/cubemap/").load([
+  scene.background = cubeTextureLoader.setPath("./textures/cubemap/").load([
     // + - 순서
     "px.png",
     "nx.png",

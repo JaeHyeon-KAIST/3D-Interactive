@@ -20,12 +20,12 @@ export default function example() {
   };
 
   const textureLoader = new THREE.TextureLoader(loadingManager);
-  const rightTexture = textureLoader.load("/npm" + "/textures/mcstyle/right.png");
-  const leftTexture = textureLoader.load("/npm" + "/textures/mcstyle/left.png");
-  const topTexture = textureLoader.load("/npm" + "/textures/mcstyle/top.png");
-  const bottomTexture = textureLoader.load("/npm" + "/textures/mcstyle/bottom.png");
-  const frontTexture = textureLoader.load("/npm" + "/textures/mcstyle/front.png");
-  const backTexture = textureLoader.load("/npm" + "/textures/mcstyle/back.png");
+  const rightTexture = textureLoader.load("./textures/mcstyle/right.png");
+  const leftTexture = textureLoader.load("./textures/mcstyle/left.png");
+  const topTexture = textureLoader.load("./textures/mcstyle/top.png");
+  const bottomTexture = textureLoader.load("./textures/mcstyle/bottom.png");
+  const frontTexture = textureLoader.load("./textures/mcstyle/front.png");
+  const backTexture = textureLoader.load("./textures/mcstyle/back.png");
 
   const materials = [
     new THREE.MeshBasicMaterial({ map: rightTexture }),

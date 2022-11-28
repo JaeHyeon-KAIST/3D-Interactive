@@ -3,9 +3,9 @@ import { TrackballControls } from "three/examples/jsm/controls/TrackballControls
 
 // ----- 주제: TrackballControls
 
-export default function example() {
+export default function example2() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas2");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,

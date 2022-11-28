@@ -1,4 +1,5 @@
-// import example from './ex01';
-import example from './ex02';
+// import example1 from './ex01';
+import example2 from './ex02';
 
-example();
+// example1();
+example2();

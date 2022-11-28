@@ -20,7 +20,7 @@ export default function example() {
   };
 
   const textureLoader = new THREE.TextureLoader(loadingManager);
-  const matcapTex = textureLoader.load("/npm" + "/textures/matcap.jpg");
+  const matcapTex = textureLoader.load("./textures/matcap.jpg");
 
   // Renderer
   const canvas = document.querySelector("#three-canvas");

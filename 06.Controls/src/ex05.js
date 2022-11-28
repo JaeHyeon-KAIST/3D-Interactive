@@ -3,9 +3,9 @@ import { PointerLockControls } from "three/examples/jsm/controls/PointerLockCont
 
 // ----- 주제: PointerLockControls
 
-export default function example() {
+export default function example5() {
   // Renderer
-  const canvas = document.querySelector("#three-canvas");
+  const canvas = document.querySelector("#three-canvas5");
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,

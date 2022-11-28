@@ -20,11 +20,11 @@ export default function example() {
   };
 
   const textureLoader = new THREE.TextureLoader(loadingManager);
-  const basicColorTex = textureLoader.load("/npm" + "/textures/brick/Brick_Wall_019_basecolor.jpg");
-  const ambientTex = textureLoader.load("/npm" + "/textures/brick/Brick_Wall_019_ambientOcclusion.jpg");
-  const normalTex = textureLoader.load("/npm" + "/textures/brick/Brick_Wall_019_normal.jpg");
-  const roughnessTex = textureLoader.load("/npm" + "/textures/brick/Brick_Wall_019_roughness.jpg");
-  const heightTex = textureLoader.load("/npm" + "/textures/brick/Brick_Wall_019_height.png");
+  const basicColorTex = textureLoader.load("./textures/brick/Brick_Wall_019_basecolor.jpg");
+  const ambientTex = textureLoader.load("./textures/brick/Brick_Wall_019_ambientOcclusion.jpg");
+  const normalTex = textureLoader.load("./textures/brick/Brick_Wall_019_normal.jpg");
+  const roughnessTex = textureLoader.load("./textures/brick/Brick_Wall_019_roughness.jpg");
+  const heightTex = textureLoader.load("./textures/brick/Brick_Wall_019_height.png");
 
   // Renderer
   const canvas = document.querySelector("#three-canvas");

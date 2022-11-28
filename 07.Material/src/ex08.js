@@ -20,7 +20,7 @@ export default function example() {
   };
 
   const textureLoader = new THREE.TextureLoader(loadingManager);
-  const texture = textureLoader.load("/npm/textures/skull/Ground Skull_basecolor.jpg");
+  const texture = textureLoader.load("./textures/skull/Ground Skull_basecolor.jpg");
 
   // 텍스쳐 변환
   texture.wrapS = THREE.RepeatWrapping;

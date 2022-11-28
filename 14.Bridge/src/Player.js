@@ -19,7 +19,7 @@ export class Player extends Stuff {
     // cm1.scene.add(this.mesh);
 
     cm1.gltfLoader.load(
-      '/npm' + '/models/ilbuni.glb',
+      './models/ilbuni.glb',
       glb => {
         glb.scene.traverse(child => {
           if (child.isMesh) {
